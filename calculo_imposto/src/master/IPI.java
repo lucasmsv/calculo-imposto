@@ -4,7 +4,8 @@ public class IPI implements Imposto {
 
     private double produto, frete, seguro, diversos, aliquota;
 
-    public IPI(double produto, double frete, double seguro, double diversos, double valor) {
+    public IPI(double produto, double frete, double seguro, double diversos, double valor) 
+    {
         this.produto = produto;
         this.frete = frete;
         this.seguro = seguro;
